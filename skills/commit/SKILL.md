@@ -16,7 +16,7 @@ Create focused, atomic commits following the Conventional Commits specification.
 
 **1. Check the branch first — before anything else.**
 
-Run `git branch --show-current`. If the branch is `main`, `beta`, or `prod`: stop immediately. Do not stage or commit anything. Tell the user they need a feature branch and suggest a name based on the changes.
+Run `git branch --show-current`. If the branch is `main`, `beta`, or `prod`: stop immediately. Do not stage or commit anything. Tell the user they need a feature branch, suggest a name based on the changes, and offer to create it.
 
 **2. Understand the current state.**
 
